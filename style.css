@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+* {
+  vertical-align: bottom;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  background: url(mainvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 960px;
+}
+
+nav {
+  margin: 0px 32px 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 32px 0;
+  font-size: 14px;
+  text-shadow: 0 0 4px #000;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  line-height: 720px;
+  font-size: 100px;
+}
+
+.top {
+  height: 100px;
+  background-position: center;
+  background-attachment: fixed;
+  /* スクロール時に背景を固定する */
+}
+
+.menulist{
+  margin: 16px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  line-height: 100px;
+  font-size: 32px;
+}
+
+.menutop {
+  background: url(menu.jpg);
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 4px solid red;
+  margin: 32px auto 0;
+  padding: 0 0 8px;
+}
+
+dl {
+  margin: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+dt {
+  flex: 1;
+  border-bottom: 1px dotted #000;
+}
+
+.abouttop{
+  background: url(about.jpg);
+}
+
+.abouttext{
+  margin: 16px;
+}
+
