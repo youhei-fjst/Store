@@ -108,14 +108,29 @@ dt {
   margin: 16px;
 }
 
+.map{
+  text-align: center;
+}
+
+.map iframe{
+  width: calc(100% - 32px);
+  max-width: 1000px;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+}
+
 footer{
   margin: 16px;
 }
 
 footer ul{
   list-style: none;
-  margin: 0;
+  margin: 0 0 128px;
   padding: 0;
+}
+
+footer li{
+  font-size: 14px;
 }
 
 footer li:nth-of-type(even){
@@ -129,3 +144,40 @@ footer div{
 small{
   font-size: 10px;
 }
+
+@media(width>=800px){
+
+}
+
+.top{
+  height: 300px;
+}
+
+h2{
+  font-size: 72px;
+  line-height: 300px;
+}
+
+h3{
+  font-size: 40px;
+  margin: 0 0 64px;
+}
+
+.menulist{
+  display: flex;
+  margin: 80px 16px 0;
+}
+
+.coffee,
+.food{
+  flex: 1;
+  padding: 0 48px;
+}
+
+.food{
+  border-left: #000 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
